@@ -1,0 +1,13 @@
+0 - empty
+1-6 - text box borders
+7-32 - uppercase characters A-Z
+33-58 - lowercase characters a-Z
+59 - down arrow
+60-64 - punctuation characters ',.!?
+65-74 - number characters 0-9
+75-... - 6x6 tiles of STROMATOLITE
+112 - character @
+113 - character ©
+114 - 6x6 tiles of MOTHLARVA
+150 - 6x6 tiles of CATNAMEDBRO
+186 - 6x6 tiles of FAUXCACHE

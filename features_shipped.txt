@@ -1,0 +1,39 @@
+- game
+  - engine
+    - integer scaling
+    - copy 2D arrangements to screen
+      - copy text to screen, a special case of copy 2D that also does the ASCII character mapping to the pattern database
+  - content
+    - graphics
+      - text box patterns
+      - font patterns with uppercase, lowercase, numbers and punctuation characters
+      - STROMATOLITE front sprite
+      - MOTHLARVA front sprite
+      - CATNAMEDBRO front sprite
+      - FAUXCACHE front sprite
+      - text box arrangement (arrangements of pattern tiles, ie "sprites")
+- "video" editor
+  - open and save "video" project files
+  - 2bpp pattern editor
+    - increase number of 8x8 tiles in "video" project file database
+    - select the 8x8 pattern to edit
+    - switch between 8x8 and 48x48 edit mode
+      - in 48x48 mode the pattern no. to edit is the first tile of the 6x6 contiguous tile data
+        - so 36 tiles are read starting from that one
+    - select one of 4 shades to draw
+    - use a pencil on the canvas
+- "audio" editor
+  - imported "getSystemaTeleionMeizonDiatonosStringLengths" function from another project
+  - string roll (piano roll but for systema teleion meizon diatonos strings)
+  - play/pause
+  - set BPM
+  - note count in pattern
+  - stop button
+  - loop toggle
+  - rename pattern
+  - set pattern BPM
+  - add pattern
+  - pause audio engine when page is not visible
+  - switch between patterns in project
+  - export audio project
+  - load project

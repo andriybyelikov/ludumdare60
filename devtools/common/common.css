@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #E0E0E0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    background-color: white;
+    font-size: 10pt;
+}
+
+.navbar > div {
+    display: flex;
+}
+
+.menu-label {
+    padding: 0.5rem 1rem;
+}
+
+.menu-items {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+
+.menu:hover .menu-items {
+    display: block;
+}
+
+.menu-item {
+    padding-left: 1rem;
+}
+
+.menu-item-label {
+    padding: 0.5rem 1rem;
+}
+
+.menu, .menu-item {
+    user-select: none;
+}
+
+.menu:hover, .menu-item:hover {
+    background-color: #F0F0F0;
+}
+
+.tab-bar {
+    display: flex;
+    align-items: end;
+}
+
+.tab {
+    user-select: none;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: inset 0px -2px 0px #C0C0C0;
+}
+
+.tab:hover {
+    background-color: #F0F0F0;
+}

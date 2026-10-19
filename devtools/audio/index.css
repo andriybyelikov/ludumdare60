@@ -1,0 +1,65 @@
+@import '../common/common.css';
+
+body {
+    font-size: 10pt;
+    background-color: #C0C0C0;
+}
+
+.instrument-label {
+    background-color: white;
+    font-family: monospace;
+    font-size: 8pt;
+    padding: 0rem 0.25rem;
+}
+
+.string-roll {
+    margin-top: 1px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.string-name {
+    /* font-family: 'Noto Serif', serif; */
+    /* font-style: italic; */
+    font-family: monospace;
+    font-size: 6pt;
+    font-weight: bold;
+    /* padding: 0.125rem 0.25rem; */
+    padding: 0rem 0.25rem;
+    background-color: white;
+}
+
+div.note > input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    appearance: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.note > input[type="radio"]:checked {
+    background-color: black;
+}
+
+.string-name, .note {
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.note {
+    background-color: white;
+    border-left: 1px solid #C0C0C0;
+}
+
+.hestote {
+    background-color: #F0F0F0;
+}
+
+.control-bar {
+    margin-top: 1px;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 1rem;
+}

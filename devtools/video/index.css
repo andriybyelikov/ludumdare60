@@ -1,0 +1,51 @@
+@import '../common/common.css';
+
+canvas {
+    display: block;
+    transform-origin: top left;
+    image-rendering: pixelated;
+}
+
+#test {
+    display: block;
+    background-color: white;
+    margin-top: 1px;
+}
+
+#palette-shade {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem 0.5rem;
+}
+
+.palette-shade-entry {
+    line-height: 1rem;
+}
+
+.palette-shade-entry input[type="radio"],
+.palette-shade-entry label {
+    margin: 0;
+    padding: 0;
+}
+
+.square-shade {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
+.palette-shade-entry label[for="shade-0"] {
+    background-color: #D0D0D0;
+}
+
+.palette-shade-entry label[for="shade-1"] {
+    background-color: #A0A0A0;
+}
+
+.palette-shade-entry label[for="shade-2"] {
+    background-color: #707070;
+}
+
+.palette-shade-entry label[for="shade-3"] {
+    background-color: #404040;
+}

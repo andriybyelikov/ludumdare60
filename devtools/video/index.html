@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>video</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <input type="file" id="input-file" hidden>
+        <a target="_blank" id="output-file"></a>
+        <nav class="navbar">
+            <div>
+                <div class="menu-bar">
+                    <div class="menu">
+                        <div class="menu-label">
+                            File
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-item" id="action-open-file">
+                                <div class="menu-item-label">
+                                    Open File...
+                                </div>
+                            </div>
+                            <div class="menu-item" id="action-save-file">
+                                <div class="menu-item-label">
+                                    Save File...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="tab-bar">
+                    <div class="tab">
+                        Pattern
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </nav>
+        <div id="test">
+            <div>
+                Pattern Count
+                <input type="number" id="pattern-count" min="1" step="1">
+            </div>
+            <div>
+                Current Pattern
+                <input type="number" id="current-pattern" min="0" step="1">
+            </div>
+            <div>
+                Edit Mode
+                <input type="radio" name="edit-mode" data-value="0" checked>8x8
+                <input type="radio" name="edit-mode" data-value="1">48x48
+            </div>
+            <div id="palette-shade">
+                <div class="palette-shade-entry">
+                    <input type="radio" name="shade" data-value="0">
+                    <label for="shade-0">
+                        <div class="square-shade"></div>
+                    </label>
+                </div>
+                <div class="palette-shade-entry">
+                    <input type="radio" name="shade" data-value="1">
+                    <label for="shade-1">
+                        <div class="square-shade"></div>
+                    </label>
+                </div>
+                <div class="palette-shade-entry">
+                    <input type="radio" name="shade" data-value="2">
+                    <label for="shade-2">
+                        <div class="square-shade"></div>
+                    </label>
+                </div>
+                <div class="palette-shade-entry">
+                    <input type="radio" name="shade" data-value="3" checked>
+                    <label for="shade-3">
+                        <div class="square-shade"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>

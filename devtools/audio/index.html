@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>audio</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <input type="file" id="input-file" hidden>
+        <a target="_blank" id="output-file"></a>
+        <nav class="navbar">
+            <div>
+                <div clasS="menu-bar">
+                    <div class="menu">
+                        <div class="menu-label">
+                            File
+                        </div>
+                        <div class="menu-items">
+                            <div clasS="menu-item" id="action-open-file">
+                                <div class="menu-item-label">
+                                    Open File...
+                                </div>
+                            </div>
+                            <div class="menu-item" id="action-save-file">
+                                <div class="menu-item-label">
+                                    Save File...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="tab-bar">
+                    <div class="tab">
+                        Pattern
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </nav>
+        <div class="control-bar" id="control-bar-1">
+            <div>
+                <select id="select-pattern"></select>
+                <button id="add-pattern">Add</button>
+                <input type="text" id="pattern-name">
+                <button id="rename-pattern">Rename</button>
+            </div>
+            <div>
+                <input type="checkbox" id="playing">
+                <label for="playing">Playing</label>
+            </div>
+            <div>
+                <button id="stop">Stop</button>
+            </div>
+            <div>
+                <input type="checkbox" id="loop">
+                <label for="loop">Loop</label>
+            </div>
+            <div>
+                <label for="bpm">BPM</label>
+                <input type="number" id="bpm">
+            </div>
+            <div>
+                <label for="note-count">Note Count</label>
+                <input type="number" id="note-count" min="1">
+            </div>
+        </div>
+        <div>
+            <div class="instrument-label">0 - Square</div>
+            <div class="string-roll" id="string-roll-instrument-0" data-instrument-id="0"></div>
+            <div class="instrument-label">1 - Square</div>
+            <div class="string-roll" id="string-roll-instrument-1" data-instrument-id="1"></div>
+            <div class="instrument-label">2 - Square</div>
+            <div class="string-roll" id="string-roll-instrument-2" data-instrument-id="2"></div>
+            <div class="instrument-label">3 - Noise</div>
+            <div class="string-roll" id="string-roll-instrument-3" data-instrument-id="3"></div>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>

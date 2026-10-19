@@ -1,0 +1,55 @@
+Enter your name:
+
+---
+
+12345678901234567
+APPRENTICE
+<name>.
+
+12345678901234567
+Effective today
+you become a
+fully fledged
+MYSTIC.
+
+
+*battle theme starts*
+
+*adversary STROMATOLITE appears*
+
+12345678901234567
+STROMATOLITE is
+your adversary!
+
+*advocate STROMATOLITE appears*
+
+12345678901234567
+STROMATOLITE is
+your advocate!
+
+
+12345678901234567
+As a MYSTIC, you
+have many
+abilities at your
+disposal in order
+command creation.
+
+12345678901234567
+The creature you
+see before you is
+STROMATOLITE, the
+first of all
+creation.
+
+
+
+COMMAND
+DIVINE
+CHARM
+TURN AWAY
+
+- DIVINATION
+- INTERVENTION
+- CHARM
+- TURN AWAY
